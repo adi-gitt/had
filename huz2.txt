@@ -40,10 +40,10 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/image"
         android:layout_below="@id/editText"
-        android:layout_marginTop="20dp"
-        android:scaleType="centerCrop" />
+        android:layout_marginTop="23dp"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@tools:sample/avatars" />
 
     <WebView
         android:id="@+id/webView"
