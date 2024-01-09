@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
         textView.setText("Loading " + url);
 
         // Load an image in the ImageView (replace R.drawable.ic_launcher_foreground with your image)
-        imageView.setImageResource(R.drawable.ic_launcher_foreground);
+        imageView.setImageResource(R.drawable.image1);
     }
 
 }
