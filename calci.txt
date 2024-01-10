@@ -1,0 +1,351 @@
+Activity main.xml
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:id="@+id/res"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:orientation="vertical"
+   tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/textView"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:background="@color/cardview_shadow_start_color"
+       android:ems="10"
+       android:gravity="right|center"
+       android:inputType="textPersonName"
+       android:text="0"
+       android:textSize="40pt" />
+
+   <TableLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <TableRow
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1">
+
+           <Button
+               android:id="@+id/button4"
+               android:layout_width="30pt"
+               android:layout_height="30pt"
+               android:layout_marginRight="1pt"
+               android:layout_weight="1"
+               android:text="AC" />
+
+           <Button
+               android:id="@+id/button3"
+               android:layout_width="30pt"
+               android:layout_height="30pt"
+               android:layout_marginRight="1pt"
+               android:layout_weight="1"
+               android:text="+/-" />
+
+           <Button
+               android:id="@+id/button2"
+               android:layout_width="30pt"
+               android:layout_height="30pt"
+               android:layout_marginRight="1pt"
+               android:layout_weight="1"
+               android:text="/" />
+
+           <Button
+               android:id="@+id/button"
+               android:layout_width="30pt"
+               android:layout_height="30pt"
+               android:layout_marginRight="1pt"
+               android:layout_weight="1"
+               android:text="*" />
+       </TableRow>
+
+       <TableRow
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1">
+
+           <Button
+               android:id="@+id/button8"
+               android:layout_width="30pt"
+               android:layout_height="30pt"
+               android:layout_marginRight="1pt"
+               android:layout_weight="1"
+               android:text="7" />
+
+           <Button
+               android:id="@+id/button7"
+               android:layout_width="30pt"
+               android:layout_height="30pt"
+               android:layout_marginRight="1pt"
+               android:layout_weight="1"
+               android:text="8" />
+
+           <Button
+               android:id="@+id/button6"
+               android:layout_width="30pt"
+               android:layout_height="30pt"
+               android:layout_marginRight="1pt"
+               android:layout_weight="1"
+               android:text="9" />
+
+           <Button
+               android:id="@+id/button5"
+               android:layout_width="30pt"
+               android:layout_height="30pt"
+               android:layout_marginRight="1pt"
+               android:layout_weight="1"
+               android:text="%" />
+       </TableRow>
+
+       <TableRow
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1">
+
+           <Button
+               android:id="@+id/button12"
+               android:layout_width="30pt"
+               android:layout_height="30pt"
+               android:layout_marginRight="1pt"
+               android:layout_weight="1"
+               android:text="4" />
+
+           <Button
+               android:id="@+id/button11"
+               android:layout_width="30pt"
+               android:layout_height="30pt"
+               android:layout_marginRight="1pt"
+               android:layout_weight="1"
+               android:text="5" />
+
+           <Button
+               android:id="@+id/button10"
+               android:layout_width="30pt"
+               android:layout_height="30pt"
+               android:layout_marginRight="1pt"
+               android:layout_weight="1"
+               android:text="6" />
+
+           <Button
+               android:id="@+id/button9"
+               android:layout_width="30pt"
+               android:layout_height="30pt"
+               android:layout_marginRight="1pt"
+               android:layout_weight="1"
+               android:text="+" />
+       </TableRow>
+
+       <TableRow
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <Button
+               android:id="@+id/button16"
+               android:layout_width="30pt"
+               android:layout_height="30pt"
+               android:layout_marginRight="1pt"
+               android:layout_weight="1"
+               android:text="1" />
+
+           <Button
+               android:id="@+id/button15"
+               android:layout_width="30pt"
+               android:layout_height="30pt"
+               android:layout_marginRight="1pt"
+               android:layout_weight="1"
+               android:text="2" />
+
+           <Button
+               android:id="@+id/button14"
+               android:layout_width="30pt"
+               android:layout_height="30pt"
+               android:layout_marginRight="1pt"
+               android:layout_weight="1"
+               android:text="3" />
+
+           <Button
+               android:id="@+id/button13"
+               android:layout_width="30pt"
+               android:layout_height="30pt"
+               android:layout_marginRight="1pt"
+               android:layout_weight="1"
+               android:text="-" />
+
+       </TableRow>
+
+       <TableRow
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <Button
+               android:id="@+id/button18"
+               android:layout_width="45pt"
+               android:layout_height="30pt"
+               android:layout_marginRight="1pt"
+               android:layout_weight="1"
+               android:text="0" />
+
+           <Button
+               android:id="@+id/button19"
+               android:layout_width="45pt"
+               android:layout_height="30pt"
+               android:layout_marginRight="1pt"
+               android:layout_weight="1"
+               android:text="." />
+
+           <Button
+               android:id="@+id/button20"
+               android:layout_width="30pt"
+               android:layout_height="30pt"
+               android:layout_marginRight="1pt"
+               android:layout_weight="1"
+               android:text="=" />
+       </TableRow>
+   </TableLayout>
+
+</LinearLayout>
+
+
+Main activity.java
+package com.example.calci;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+
+public class MainActivity extends AppCompatActivity  implements View.OnClickListener {
+   Button one,two,three,four,five,six,seven,eight,nine,zero;
+   Button plus,minus,division,mod,equals,clear,dot,multiply;
+   EditText res;
+   String operatorpressed;
+
+   @Override
+   protected void onCreate(Bundle savedInstanceState) {
+       super.onCreate(savedInstanceState);
+       setContentView(R.layout.activity_main);
+       res=findViewById(R.id.textView);
+       one=findViewById(R.id.button16);
+       two=findViewById(R.id.button15);
+       three=findViewById(R.id.button14);
+       four=findViewById(R.id.button12);
+       five=findViewById(R.id.button11);
+       six=findViewById(R.id.button10);
+       seven=findViewById(R.id.button8);
+       eight=findViewById(R.id.button7);
+       nine=findViewById(R.id.button6);
+       zero=findViewById(R.id.button18);
+       plus=findViewById(R.id.button9);
+       minus=findViewById(R.id.button13);
+       multiply=findViewById(R.id.button);
+       division=findViewById(R.id.button2);
+       clear=findViewById(R.id.button4);
+       equals=findViewById(R.id.button20);
+       mod=findViewById(R.id.button5);
+       dot=findViewById(R.id.button19);
+
+
+       res.setOnClickListener(this);
+       one.setOnClickListener(this);
+       two.setOnClickListener(this);
+       three.setOnClickListener(this);
+       four.setOnClickListener(this);
+       five.setOnClickListener(this);
+       six.setOnClickListener(this);
+       seven.setOnClickListener(this);
+       eight.setOnClickListener(this);
+       nine.setOnClickListener(this);
+       zero.setOnClickListener(this);
+       //operators
+       plus.setOnClickListener(this);
+       minus.setOnClickListener(this);
+       division.setOnClickListener(this);
+       mod.setOnClickListener(this);
+       multiply.setOnClickListener(this);
+
+       equals.setOnClickListener(this);
+       clear.setOnClickListener(this);
+       dot.setOnClickListener(this);
+
+   }
+
+   @Override
+   public void onClick(View view) {
+
+       double finalres=0;
+       switch (view.getId())
+       {
+           case R.id.button16 : res.append("1");
+               break;
+           case R.id.button15: res.append("2");
+               break;
+           case R.id.button14: res.append("3");
+               break;
+           case R.id.button12: res.append("4");
+               break;
+           case R.id.button11: res.append("5");
+               break;
+           case R.id.button10: res.append("6");
+               break;
+           case R.id.button8: res.append("7");
+               break;
+           case R.id.button7: res.append("8");
+               break;
+           case R.id.button6: res.append("9");
+               break;
+           case R.id.button18: res.append("0");
+               break;
+           case R.id.button9: res.append("+");
+               operatorpressed="+";
+               break;
+           case R.id.button13:  res.append("-");
+               operatorpressed="-";
+               break;
+           case R.id.button: res.append("*");
+               operatorpressed="*";
+               break;
+           case R.id.button2: res.append("/");
+               operatorpressed="/";
+               break;
+           case R.id.button4:  res.setText(" ");
+               break;
+           case R.id.button19: res.append(".");
+               break;
+           case R.id.button5: res.append("%");
+               operatorpressed="%";
+               break;
+           case R.id.button20: finalres=compute(res.getText().toString(),operatorpressed);
+               res.setText(String.valueOf(finalres));
+               break;
+
+           default:return;
+       }
+
+   }
+
+   private double compute(String toString, String operatorpressed) {
+       String[] tokens=toString.split("\\+|-|\\*|\\/|%");
+       double firstoperand=Double.parseDouble(tokens[0]);
+       double secondoperand=Double.parseDouble(tokens[1]);
+
+       switch (operatorpressed)
+       {
+           case "+" : return firstoperand+secondoperand;
+           case "-" : return firstoperand-secondoperand;
+
+           case "*" : return firstoperand*secondoperand;
+           case "/" : return firstoperand/secondoperand;
+           case "%" : return firstoperand%secondoperand;
+           default: return 0;
+       }
+
+
+
+   }
+}
